@@ -1,13 +1,13 @@
 @media screen and (min-width: 901px) {
 	#block-bartik-sitebranding {
-		width: 100%; /* Allows scattering container items to edges */
+		width: 100%;
 	}
 
 	.site-branding__logo {
-		float: left; /* right for LTR */
+		float: right;
 	}
 
 	.site-branding__text {
-		float: right; /* left for LTR */
+		float: left;
 	}	
 }
