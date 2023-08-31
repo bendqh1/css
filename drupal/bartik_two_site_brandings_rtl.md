@@ -1,4 +1,6 @@
-Create two site branding blocks, one for site name and site slogan and one for the logo.
+Create two site branding blocks, one for sitename-siteslogan and one for the logo.
+
+## Make sitename-siteslogan and logo one on top the other
 
 ```css
 @media screen and (max-width: 1290px) {
@@ -18,7 +20,11 @@ Create two site branding blocks, one for site name and site slogan and one for t
 		float: none;
 	}
 }
+```
 
+## Make sitename-siteslogan one alongside the other
+
+```css
 @media screen and (min-width: 1291px) {
 	#block-globalrs-sitebranding {
 		float: right;
