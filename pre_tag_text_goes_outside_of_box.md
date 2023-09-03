@@ -11,6 +11,7 @@ And maybe also
 ```css
 display: block;
 position: relative;
+overflow: scroll;
 box-sizing: border-box;
 line-break: normal;
 word-wrap: break-word;
