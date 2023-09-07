@@ -1,0 +1,17 @@
+/* Sidebar region borders and margins */
+
+.region--sidebar .block {
+	border-bottom: 3px solid #2494db;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.region--sidebar .block:first-child {
+	border-top: none;
+}
+
+.region--sidebar .block:last-child {
+	border-bottom: none;
+}
