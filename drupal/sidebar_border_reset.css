@@ -1,3 +1,33 @@
+/* Fix h1 and sidebar first heading not vertically aligned */
+
+h1 {
+	line-height: 1em;
+}
+
+/* Sidebar region general modifications */
+
+.region--sidebar {
+	text-align: center;
+}
+
+.region--sidebar .block__title {
+	text-align: center;
+}
+
+.region--sidebar .menu--sidebar {
+	text-align: center;
+}
+
+.menu--sidebar .menu__link::after {
+	border-block-start: none;
+}
+
+.region--sidebar .block__title {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+}
+
 /* Sidebar region borders and margins */
 
 .region--sidebar .block {
@@ -15,5 +45,5 @@
 
 .region--sidebar .block:last-child {
 	border-bottom: none;
-	padding-bottom: 0;
+	padding-bottom: 40px; /* Fix a button touching possible border under it */
 }
