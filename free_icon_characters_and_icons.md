@@ -1,4 +1,4 @@
-## HTML AND Unicode character icons:
+## HTML and/or Unicode character icons:
 
 * ttps://www.toptal.com/designers/htmlarrows/symbols/
 
