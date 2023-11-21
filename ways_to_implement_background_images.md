@@ -6,7 +6,7 @@ Make the image darker in a image manipulation tool such as GIMP.
 
 ## Second way with CSS
 
-Put the text in a <div> on top of a <div> containing the image as a background image and make the first <div> to have a transparent background this way `background: rgba(0,0,0,0.50);`
+Put the text in a `<div>` inside a `<div>` containing the image as a background image and make the first <div> to have a transparent background this way `background: rgba(0,0,0,0.50);`
 
 ## Third way with CSS (which I like the most)
 
