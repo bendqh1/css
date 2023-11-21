@@ -13,7 +13,7 @@ Put the text in a <div> on top of a <div> containing the image as a background i
 ```css
 .homepage_after_hero {
 	padding:50px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)) , url("https://benaharoni.com/sites/default/files/2023-11/ben_aharoni_homepage_after_hero_regular.jpg");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)) , url("IMAGE");
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -22,7 +22,7 @@ Put the text in a <div> on top of a <div> containing the image as a background i
 .homepage_after_hero h2, .homepage_after_hero h3, .homepage_after_hero p {
 	margin-block: unset !important;
 	margin-bottom: 25px !important;
-	color: #fff
+	color: #fff;
 }
 ```
 
