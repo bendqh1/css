@@ -8,4 +8,4 @@
 
 ## FontAwsome
 
-https://fontawesome.com/
+* https://fontawesome.com/
