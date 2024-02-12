@@ -1,0 +1,7 @@
+.myFramedImage {
+	border-top: 1px solid var(--actionColor);
+	border-right: 1px solid var(--actionColor);
+	border-bottom: 10px solid var(--secondaryColor);
+	border-left: 10px solid var(--secondaryColor);
+	border-radius: 10px;
+}
