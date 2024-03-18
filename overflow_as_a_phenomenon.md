@@ -9,7 +9,13 @@ So, either we give to an **item**:
 
 ```css
 box-sizing: border-box;
-```  
+```
+
+We may need to add:
+
+```css
+word-break: break-word;
+```
 
 In some cases, giving the following to **an item's container** might help:
 
