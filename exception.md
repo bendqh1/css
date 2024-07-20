@@ -1,10 +1,8 @@
 We can give an exception to element B inside element A, in case element A dictates element's B behavior.
 
 ```css
-@media screen and (max-width: 999px) {
-  .grid-full:has(.x) {
-    display: block !important;
-  }
+.grid-full:has(.x) {
+  display: block !important;
 }
 ```
 
