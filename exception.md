@@ -1,3 +1,13 @@
+# Not
+
+```css
+.region--content .block:not(.node__content) {
+	background: red;
+}
+```
+
+# Has
+
 We can give an exception to element B inside element A, in case element A dictates element's B behavior.
 
 ```css
