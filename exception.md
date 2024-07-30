@@ -1,9 +1,9 @@
 # Not
 
 ```css
-.region--content .block:not(.node__content) {
+.region--content .block:not(#block-globalrs-content) {
+	background: var(--secondaryColor);
 	padding: var(--majoris);
-	background: red;
 }
 ```
 
