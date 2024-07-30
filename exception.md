@@ -2,6 +2,7 @@
 
 ```css
 .region--content .block:not(.node__content) {
+	padding: var(--majoris);
 	background: red;
 }
 ```
