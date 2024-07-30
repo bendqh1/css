@@ -9,10 +9,10 @@
 
 # Has
 
-We can give an exception to element B inside element A, in case element A dictates element's B behavior.
+We can give special directives to element B inside element A the following way.
 
 ```css
-.grid-full:has(.x) {
+.a:has(.b) {
   display: block !important;
 }
 ```
@@ -20,7 +20,7 @@ We can give an exception to element B inside element A, in case element A dictat
 Pseudocode explanation:
 
 <pre>
-SELECT ANY ELEMENT WITH THE CLASS grid-full
-IF IT **HAS** AT LEAST ONE CHILD ELEMENT WITH THE CLASS x
+SELECT ANY ELEMENT WITH THE CLASS a
+IF IT **HAS** AT LEAST ONE CHILD ELEMENT WITH THE CLASS b
 THEN GIVE ANY SUCH CHILD ELEMENT THE FOLLOWING **EXCEPTIONAL** CSS DIRECTIVES
 </pre>
