@@ -1,0 +1,19 @@
+:root {
+    --primaryColor: red;
+    --secondaryColor: green;
+    --actionColor: blue;
+    --exceptionColor: yellow
+}
+
+/*
+    Call these in every place per need by:
+
+    var(--primaryColor)
+    var(--secondraryColor)
+    var(--actionColor)
+    var(--exceptionColor)
+*/
+
+button {
+    background-color: var(--actionColor);
+}
