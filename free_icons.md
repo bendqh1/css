@@ -6,6 +6,6 @@
 
 * https://fontawesome.com/
 
-##
+## Miscellaenous
 
 * https://commons.wikimedia.org/wiki/Category:Telephone_icons
