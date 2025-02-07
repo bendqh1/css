@@ -14,5 +14,4 @@ This may be better:
 
 ```css
 min-height: 100px;
-padding: 20px;
 ```
