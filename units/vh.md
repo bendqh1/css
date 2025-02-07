@@ -13,6 +13,6 @@ However, 25vh may not leave enough space for flexbox to properly center the cont
 This may be better:
 
 ```css
-min-height: 100px !important; /* Minimum height of footer */
-padding: 20px 0 !important; /* Adjust top and bottom padding to avoid large gaps */
+min-height: 100px;
+padding: 20px;
 ```
