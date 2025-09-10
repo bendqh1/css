@@ -1,0 +1,8 @@
+Instead of px units, consider using relative units like `1.5rem` or `5vw` instead of `10px` for better responsiveness across viewports.
+
+Prefer rem for consistent spacing that scales with the user's font size settings, ensuring better accessibility. Use vw only when you want spacing to adapt fluidly to screen width. For buttons, rem is usually better.
+
+```css
+bottom: 1.5rem;
+left: 1.5rem;
+```
